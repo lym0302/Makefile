@@ -1,0 +1,7 @@
+main:a.o
+	g++ a.o -o a  
+
+a.o:
+	g++ -c a.cc   -I../ -I../../tools/openfst-1.6.7/src/include/ -std=c++11
+
+ 
